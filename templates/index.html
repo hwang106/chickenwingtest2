@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	 crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+	<!-- CSS Style Sheet -->
+	<link rel="stylesheet" href="static/css/style.css" type="text/css" />
+
+	<title>Chicken Wing Price Change Calculator</title>
+
+</head>
+
+<body>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col">
+        <h1>🐔💸The Great Wing Shortage Explained💸🐔</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-3"></div>
+      <div class = "col-6 embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hrUE-SA7p94" allowfullscreen></iframe>
+      </div>
+      <div class = "col-3"></div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+          <i class="bi bi-cash-stack">Why the Shortage</i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container collapse" id="collapse2">
+    <div class="row">
+      <div class="col">
+        <div class="card card-body">
+          <h1>Why is there a Wing Shortage in America?</h1>
+          <h4>Throughout the COVID-19 pandemic, many companies took a hit. How has this impacted the chicken industry?</h4>
+          
+          <p>The chicken shortage can be attributed to a few different factors, including the COVID-19 pandemic. The National Chicken Council dubbed chicken “The Nation’s #1 Quarantine Protein.” Wings have been particularly popular, according to Tom Super, senior vice president of the National Chicken Council.</p>
+          
+          <p>“Restaurants like wing joints and pizza places were built around takeout and delivery, so they didn’t have to change their business model that much during the pandemic,” Super said in a statement to WebMD. “Each chicken only has two wings and producers don’t raise chickens just for the wings, they have to sell all of the other parts, as well.”</p>
+          
+          <p>The chicken industry also took two major hits in February. In Texas, a rare severe winter storm resulted in the death of millions of chickens. Even worse, this event took place around the same time as the wing industry’s biggest event of the year: Super Bowl Sunday. This year, Americans ate an estimated 1.42 billion wings, according to the National Chicken Council.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+          <i class="bi bi-cash-stack">Chicken Wing Price Calculator</i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container collapse" id="collapse1">
+    <div class="row">
+      <div class="col">
+        <div class="card card-body">
+          <h1>Chicken Wing Price Calculator</h1>
+          <form action="/index" method="post">
+            <input type="text" placeholder="How many wings?" name="wings"></input>
+            <input type="text" placeholder="Day of the week?" name="weekday"></input>
+            <input type="submit" value="Calculate"></input>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+	</body>
+</html>
