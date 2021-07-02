@@ -3,9 +3,7 @@ from random import choice
 from model import chicken_prices_before, chicken_prices_after
 
 app = Flask(__name__)
-app.config['ENV'] = 'development'
-app.config['DEBUG'] = True
-app.config['TESTING'] = True
+
 
 @app.route('/')
 @app.route('/index', methods=['GET', 'POST'])
@@ -23,5 +21,5 @@ def index():
 
 
 
-app.run(host='0.0.0.0', port=8080)
+
 
